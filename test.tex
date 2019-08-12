@@ -1,4 +1,6 @@
 \documentclass{article}
+\usepackage{amsmath,amssymb}
+\usepackage{cite}
 
 \begin{document}
 This is a sample
@@ -6,16 +8,19 @@ This is a sample
     x + y = zafadjfa
 \end{equation}
 
+\begin{align}
+    \zeta(\frac{1}{2}+i t) = 0.
+\end{align}
 
 $$
-\int_0^t f(x) dx
+\int_0^t f(y) dy
 $$
 \[
-    \infty
+    -\infty
 \]
-$\frac{2}{3}$
-\cite{KyTea}
 
+ref1 \cite{KyTea}, ref2  \cite{DUMMY:1}, ref3 \cite{Nobody06}.
+
+\bibliography{ref}{}
 \bibliographystyle{plain}
-\bibliography{ref}
 \end{document}
